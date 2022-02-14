@@ -1,0 +1,25 @@
+.cover:hover .cover__background {
+  transition: 0.8s;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 0 -48px 0 -48px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
