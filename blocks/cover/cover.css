@@ -1,25 +1,23 @@
-.cover:hover .cover__background {
-  transition: 0.8s;
-  opacity: 0.3;
-  cursor: pointer;
+.cover {
+  position: relative;
+  padding: 0 48px 92px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    margin: 0 -48px 0 -48px;
+    padding-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .cover {
-    margin-left: -24px;
-    margin-right: -24px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    margin-left: -16px;
-    margin-right: -16px;
+    padding-bottom: 64px;
   }
 }

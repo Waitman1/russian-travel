@@ -4,7 +4,7 @@
   line-height: 29px;
 }
 
-.place__paragraph:nth-child(2) {
+.place__paragraph:not(:first-child) {
   margin-top: 26px;
 }
 
@@ -14,7 +14,7 @@
     line-height: 26px;
   }
 
-  .place__paragraph:nth-child(2) {
+  .place__paragraph:not(:first-child) {
     margin-top: 25px;
   }
 }
